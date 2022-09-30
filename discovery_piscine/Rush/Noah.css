@@ -1,0 +1,124 @@
+body {
+	margin : 0px;
+}
+.parallax {
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	font-size: 4vh;
+	font-size: 4vw;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+}
+
+.background {
+	background-image: url('bg6.jpg');
+}
+
+.background2 {
+	background-image: url('bg5.png');
+}
+
+.nav {
+	height: 100%;
+	width: 0px;
+	background-color: rgba(255, 255, 255, 0.75);
+	align-items: left;
+	position: fixed;
+}
+
+.centered {
+	background-color : black;
+	color : white;
+	padding : 50%;
+}
+
+#Skill {
+	font-size: 3vh;
+	font-size: 3vw;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+}
+
+
+.nav2 {
+	height: 50px;
+	width: 20px;
+	background-color: black;
+	position: fixed;
+	margin-left: 0px;
+	margin-top: 550px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.nav3 {
+	height: 50px;
+	width: 20px;
+	background-color: black;
+	align-items: left;
+	position: fixed;
+	margin-left: 300px;
+	margin-top: 550px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+#pr {
+	margin-top: 80%;
+	color: white;
+	text-align: center;
+}
+
+#btn1, #btn2, #btn3, #about {
+	display: none;
+}
+.btn1 {
+	border-radius: 30px;
+	width: 260px;
+	height: 40px;
+	margin: 20px;
+	background-color: black;
+} .btn1:hover {
+	background-color: darkgray;
+}
+
+.btn2 {
+	border-radius: 30px;
+	width: 260px;
+	height: 40px;
+	margin-left: 20px;
+	background-color: black;
+} .btn2:hover {
+	background-color: darkgray;
+}
+
+.btn3 {
+	border-radius: 30px;
+	width: 260px;
+	height: 40px;
+	margin-left: 20px;
+	background-color: black;
+} .btn3:hover {
+	background-color: darkgray;
+}
+
+#l {
+	align-items: center;
+	text-align: center;
+	color: white;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+	font-size: 30;
+}
+
+.aboutme {
+	height: 400px;
+	width: 260px;
+	background-color: black;
+	margin-left: 20px;
+}

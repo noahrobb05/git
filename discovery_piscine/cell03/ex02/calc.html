@@ -1,0 +1,59 @@
+<html>
+    <head><title>Calculator</title></head>
+    <header>
+        <link rel="stylesheet" href="calc.css">
+    </header>
+    <body>
+        <center>
+            <table>
+                <form>
+                    <tr>
+                        <td><input type="text" id="calculator" name="calc"></td>
+                        <td><select id="options">
+                            <option value="add ">+</option>
+                            <option value="sub">-</option>
+                            <option value="Times">*</option>
+                            <option value="divide">/</option>
+                            <option value="percent">%</option>
+                        </select></td>
+                        <td><input type="text" id="calculator2" name="calc"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" value="Try Me" onclick="func()"><br></td>
+                    </tr>
+                </form>
+            </table>
+ 
+        </center>
+    </body>
+    <script>
+        function func(value) {
+            var calc1 = document.getElementById("calculator").value;
+            var calc2 = document.getElementById("calculator2").value;
+            var select = document.getElementById("options");
+            var option = select.options[select.selectedIndex].text;
+
+            if (calc1 <= 0 || calc2 <= 0){
+                if (calc2 == 0 && option == '%' || calc2 == 0 && option == '/') {
+                    alert("It's Over 9000")
+                    console.log("It's Over 9000")
+                } else {
+                    alert("Error :(")
+                    console.log("Error :(")
+                }
+            } 
+            else {
+                var calculated = eval(calc1 + option + calc2);
+                console.log("The answer is " + calculated);
+                alert("The answer is " + calculated);
+            }
+        }
+        const doom = setInterval(UseMe, 30000);
+
+        function UseMe() {
+            let text = "Please, use me...";
+            alert(text);
+        }
+    </script>
+</html>

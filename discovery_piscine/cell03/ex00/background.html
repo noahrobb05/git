@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="background.css">
+    </head>
+    <body>
+        <center>
+            <button onclick="myFunc()">Click Me</button>
+        </center>
+    </body>
+    <script>
+        function myFunc() {
+            var x = Math.floor(Math.random() * 256);
+            var y = Math.floor(Math.random() * 256);
+            var z = Math.floor(Math.random() * 256);
+            var RGBColor = "rgb(" + x + "," + y + "," + z + ")";  
+            console.log(RGBColor)
+            document.body.style.background = RGBColor;
+        
+        }
+
+    </script>
+</html>

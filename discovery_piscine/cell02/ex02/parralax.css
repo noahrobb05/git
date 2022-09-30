@@ -1,0 +1,28 @@
+body {
+	margin : 0px;
+}
+.parallax {
+	display: flex;
+	justify-content : center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	height: 100%;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+}
+
+.background {
+	background-image: url('images-1.jpg');
+}
+
+.background2 {
+	background-image: url('download.jpg');
+}
+
+.centered {
+	background-color : black;
+	color : white;
+	padding : 50%;
+}
